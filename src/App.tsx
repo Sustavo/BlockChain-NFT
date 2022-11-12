@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
+
+//Components
+import  FButton  from './shared/components/futuristButton'
 
 export const App = () => {
   return (
     <div className="App">
-      teste
+      <FButton name={''} color={''} colorText={''} colorHover={''} />
     </div>
   );
 }
