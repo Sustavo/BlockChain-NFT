@@ -2,15 +2,7 @@ import styled from 'styled-components'
 import './futuristButton.component.css'
 import {Bracket, Button, Bar} from './styles'
 
-interface ButtonProps {
-    name: string
-    color: string
-    colorText: string
-    colorHover: string
-}
-
-
-export default function FButton(props: ButtonProps) {
+export default function FButton() {
     return(
         <>
             <div className="container">

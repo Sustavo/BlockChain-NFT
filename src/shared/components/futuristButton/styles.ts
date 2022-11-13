@@ -8,6 +8,7 @@ export const Button = styled.button`
 
     background: #AD1AAF;
     color: #ffffff;
+    cursor: pointer;
 `
 
 export const Bracket = styled.div`
