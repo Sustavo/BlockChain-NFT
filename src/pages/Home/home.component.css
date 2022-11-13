@@ -1,5 +1,27 @@
 .container {
-    margin: 10px;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    margin-top: 250px;
+    background: transparent;
 }
+
+.BleedingGhost {
+    display: flex;
+    margin-right: -155px;
+    background: transparent;
+}
+
+.LivingOfTheArt {
+    display: flex;
+    margin-top: -80px;
+    margin-right: -40px;
+    z-index: 1;
+    background: transparent;
+}
+
+.StatueOfVughae {
+    display: flex;
+    margin-top: 65px;
+    margin-left: -59px;
+}
+

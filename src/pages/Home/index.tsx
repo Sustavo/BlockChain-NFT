@@ -12,9 +12,18 @@ import './home.component.css'
 export default function Home(){
     return (
         <div className="container">
-            <NftHeader image={LivingOfTheArt} price='$ 543,576.13' title='Living of the art' />
-            <NftHeader image={StatueOfVughae} price='$ 543,576.13' title='Living of the art' />
-            <NftHeader image={BleedingGhost} price='$ 543,576.13' title='Living of the art' />
+
+            <div className="BleedingGhost">
+                <NftHeader image={BleedingGhost} price='$ 152,793.17' title='Bleeding Ghost' />
+            </div>
+
+            <div className="LivingOfTheArt">
+                <NftHeader image={LivingOfTheArt} price='$ 543,576.13' title='Living of the art' />
+            </div>
+            
+            <div className="StatueOfVughae">
+                <NftHeader image={StatueOfVughae} price='$ 452,968.48' title='Statue Of Vughae' />
+            </div>
         </div>
     )
 }

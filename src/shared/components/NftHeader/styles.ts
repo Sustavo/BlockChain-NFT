@@ -13,7 +13,7 @@ export const OrganizePost = styled.div`
     background: linear-gradient(209deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.1) 30%, rgba(255,255,255,0.3) 100%);
     border-top: 3px solid rgba(255, 255, 255, 0.4);
     border-bottom: 3px solid rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(17.915px);
+    backdrop-filter: blur(8.915px);
     border-radius: 41.6667px;
 
 `
