@@ -7,8 +7,8 @@ export const globalStyle = createGlobalStyle`
         box-sizing: border-box;
         font-family: 'Lato', sans-serif;
         font-family: 'Oxanium', cursive;
-        /* background: #140C1F; */
-        background: green
+        background: #140C1F;
+        /* background: green */
   }
 `
 
