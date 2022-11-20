@@ -1,8 +1,8 @@
 
-import './futuristButton.component.css'
+import './ExploreMoreButton.component.css'
 import {Bracket, Button, Bar} from './styles'
 
-export default function FButton() {
+export default function ExploreMoreButton() {
     return(
         <>
             <div className="container">
