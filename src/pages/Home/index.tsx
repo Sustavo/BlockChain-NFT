@@ -7,11 +7,12 @@ import HeaderBar from "../../shared/components/HeaderBar"
 //CSS
 import './home.component.css'
 import ConnectWalletButton from "../../shared/components/ConnectWalletButton"
+import BuyNft from "../../shared/components/BuyNft"
 
 export default function Home(){
     return (
         <>
-            <ConnectWalletButton />
+            <BuyNft />
         </>
     )
 }
