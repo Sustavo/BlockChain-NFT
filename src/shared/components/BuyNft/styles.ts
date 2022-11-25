@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+//CONTAINERS
+
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -17,12 +19,17 @@ export const Container = styled.div`
 export const ContainerPerfil = styled.div`
     display: flex;
     flex-direction: row;
+    align-items: center;
     background: transparent;
+    padding: 30px 34px;
+    gap: 14px;
+    
 `
 export const ContainerPerfilText = styled.div`
     display: flex;
     flex-direction: column;
     background: transparent;
+    
 `
 
 export const ContainerImg = styled.div`
@@ -30,10 +37,32 @@ export const ContainerImg = styled.div`
     background: transparent;    
 `
 
-export const BuyNftImage = styled.img`
-    width: 370px;
-    height: 261px;
-    border-radius: 15px;
+export const ContainerOnsale = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    background: transparent;
+    margin-top: 4px;
+`
+
+export const ContainermakeEth = styled.div`
+    display:flex;
+    flex-direction: column;
+    background: transparent;
+`
+
+export const ContainerEth = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: transparent;
+`
+
+export const ContainerPrice = styled.div`
+    display: flex;
+    flex-direction: column;
+    background: transparent;
 `
 
 export const BuyNftFavorite = styled.div`
@@ -50,12 +79,17 @@ export const BuyNftFavorite = styled.div`
     z-index: 1;
 `
 
-export const BuyNftFavoriteImage = styled.img`
-    width: 17px;
-    height: 15px;
+export const ContainerSeparete = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
     background: transparent;
-
+    padding: 20px 34px;
+    
 `
+
+//Escrita
 
 export const BuyNftFavoriteText = styled.p`
     font-size: 16px;
@@ -65,13 +99,6 @@ export const BuyNftFavoriteText = styled.p`
     text-align: right;
     
 `
-
-export const BuyNftPerfilImage = styled.img`
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-`
-
 export const BuyNftPerfilTitle = styled.p`
     font-size: 25px;
     font-weight: 400;
@@ -84,5 +111,56 @@ export const BuyNftPerfilText = styled.p`
     font-weight: 400;
     color: #FFFFFF;
     background: transparent;
+    font-family: 'Lato';
+    font-weight: 400;
+`
+
+export const BuyNftOnsale = styled.p`
+    font-size: 16px;
+    color: #FFFFFF;
+    background: transparent;
+`
+
+export const BuyNftOnsalePriceEth = styled.p`
+    font-size: 20px;
+    color: #FFFFFF;
+    background: transparent;
+`
+
+export const BuyNftOnsalePriceDolar = styled.p`
+    font-size: 14px;
+    color: #FFFFFF;
+    background: transparent;
+    margin-left: 25px;
+`
+
+//Imagens
+
+
+export const BuyNftImage = styled.img`
+    width: 370px;
+    height: 261px;
+    border-radius: 15px;
+`
+
+export const BuyNftFavoriteImage = styled.img`
+    width: 17px;
+    height: 15px;
+    background: transparent;
 
 `
+
+
+export const BuyNftPerfilImage = styled.img`
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    `
+
+export const BuyNftEthereumImage = styled.img`
+    width: 20px;
+    height: 20px;
+    background: transparent;
+`
+
+
