@@ -1,4 +1,4 @@
-import { BuyNftEthereumImage, BuyNftFavorite, BuyNftFavoriteImage, BuyNftFavoriteText, BuyNftImage, BuyNftOnsale, BuyNftOnsalePriceDolar, BuyNftOnsalePriceEth, BuyNftPerfilImage, BuyNftPerfilText, BuyNftPerfilTitle, Container, ContainerEth, ContainerImg, ContainermakeEth, ContainerOnsale, ContainerPerfil, ContainerPerfilText, ContainerPrice, ContainerSeparete } from "./styles";
+import { BuyNftButton, BuyNftButtonBorder, BuyNftButtonDiv, BuyNftEthereumImage, BuyNftFavorite, BuyNftFavoriteImage, BuyNftFavoriteText, BuyNftImage, BuyNftOnsale, BuyNftOnsalePriceDolar, BuyNftOnsalePriceEth, BuyNftPerfilImage, BuyNftPerfilText, BuyNftPerfilTitle, Container, ContainerEth, ContainerImg, ContainermakeEth, ContainerOnsale, ContainerPerfil, ContainerPerfilText, ContainerPrice, ContainerSeparete } from "./styles";
 import MonkayApe from "../../img/BuyNft/Monkey Ape.svg"
 import Hearth from "../../img/BuyNft/Hearth.svg"
 import Avatar from "../../img/Avatar.svg"
@@ -37,10 +37,11 @@ export default function BuyNft() {
                         </ContainerPrice>
                     </ContainermakeEth>
                 </ContainerSeparete>
-
+                <BuyNftButtonDiv>
+                    <BuyNftButtonBorder />
+                    <BuyNftButton>Buy Now</BuyNftButton>
+                    <BuyNftButtonBorder />
+                </BuyNftButtonDiv>
             </Container>
-
-
-
     )
 }
