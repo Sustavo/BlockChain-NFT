@@ -164,3 +164,34 @@ export const BuyNftEthereumImage = styled.img`
 `
 
 
+//Button
+
+export const BuyNftButtonDiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    cursor: pointer;
+`
+
+export const BuyNftButton = styled.button`
+    width: 322px;
+    height: 60px;
+    background: rgba(248, 29, 251, 0.05);
+    border: 1px solid #F81DFB;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center; 
+    cursor: pointer;
+
+`
+
+export const BuyNftButtonBorder = styled.div`
+    width: 7.8px;
+    height: 40px;
+    background: #F81DFB;
+`
+
+
